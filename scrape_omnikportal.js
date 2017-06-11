@@ -23,6 +23,7 @@ page.open(url, function(status) {
 
                 var omnikData = lblNow + ";" + lblDEQ + ";" + lblMEQ + ";" + lblYEQ + ";" + lblSEQ;
                 console.log(omnikData);
+                return omnikData;
         });
     } else {
       console.log("not success");
